@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт верстальщика</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <h1>Дональд Кнут</h1>
+        
+        <img class="logo" height="100px" width="50px" src="img/android.svg" alt="Логотип">
+        <nav>
+            <ul>
+                
+                <li><a href="#about">Введение</a></li>
+                <li><a href="#info">Информация</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <section class="about" id="about">
+            <h2>Введение</h2>
+            <a download href="img/Дональд Кнут.webp">
+                <img height="400px" width="300px" src="img/Дональд Кнут.webp" alt="Дональд Кнут">
+            </a>
+            <p lang="en">Дональд Эрвин Кнут (англ. Donald Ervin Knuth, МФА; род. (<del> февраль 1939 года</del>) <ins>январь 1938 года</ins>, Милуоки, штат Висконсин) — американский учёный в области информатики, доктор философии (1963), эмерит-профессор Стэнфордского университета, член Американского философского общества (2012)[6], преподаватель и идеолог программирования, автор 19 монографий (в том числе ряда классических книг по программированию) и более 160 статей, разработчик нескольких известных программных технологий.
+
+                Является автором всемирно известной серии книг, посвящённой основным алгоритмам и методам вычислительной математики, а также создателем настольных издательских систем TeX и METAFONT, предназначенных для набора и вёрстки книг научно-технической тематики (в первую очередь — физико-математических).</p>
+
+            
+            <blockquote>
+                <p>  «Преждевременная оптимизация — корень всех зол».</p>
+                <cite>Дональд Кнут</cite>
+            </blockquote>
+        </section>
+
+        
+        <section class="articles" id="info">
+            <h3>Информация</h3>
+            
+            <ol class="articles-list">
+                <li class="important-item"><a href="article1.html">Биография</a></li>
+                <li><a href="article2.html">Признание</a></li>
+                <li><a href="article3.html">Интересные факты</a></li>
+                <li><a href="article4.html">Список терминов</a></li>
+            </ol>
+        </section>
+        <section class="feedback" id="feedback">
+            <h2>Обратная связь</h2>
+            <form action="">
+                <label for="login">Введите логин</label><br>
+                <input type="text" placeholder="Логин" name="login" id="login" ><br>
+                <label for="pass">Введите пароль</label><br>
+                <input type="password" placeholder="Пароль" name="pass" id="pass"><br>
+                <input type="checkbox" id="agreement" name="agreement" required>
+                <label for="agreement"> Согласие на обработку персональных данных</label><br>
+                <select name="city" id="city" required>
+                    <option value="" selected disabled>Выберите город</option>
+                    <option value="chel">Челябинск</option>
+                    <option value="mos">Москва</option>
+                    <option value="tum">Тюмень</option>
+                    <option value="kaz">Казань</option>
+
+                </select><br>
+                <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                <input type="submit" value="Войти">
+
+            </form>
+
+        </section>
+    </main>
+
+    
+    <footer>
+        <p>&copy; Суворов Данил, 2026 г.</p>
+        
+        <p>Телефон: <a href="tel:+79999999999">+7 (999) 999-99-99</a></p>
+        <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
+        
+        <div class="social-icons">
+            <a href="https://github.com/" target="_blank"><i class="bi bi-github"></i></a>
+            <a href="https://moodle.inueco.ru/" target="_blank"><i class="bi bi-mortarboard"></i></a>
+        </div>
+        <p>Также меня можно найти <a target="_blank" href="https://moodle.inueco.ru/">здесь</a></p>
+    </footer>
+</body>
+</html>
