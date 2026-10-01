@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Сайт верстальщика</title>
-    <meta property="og:title" content="Главная">
+    <title>Дональд Кнут</title>
+    <meta property="og:title" content="Дональд Кнут">
     <meta property="og:site_name" content="Дональн Кнут ">
     <meta property="og:url" content="https://funnysmailey.github.io/Donald_Knut/index.html">
     <meta property="og:description" content="">
     <meta property="og:image" content="https://site.ru/img/Дональд Кнут.webp">
+    <meta name="keywords" content="Дональд Кнут, информатика, программирование, алгоритмы, TeX, биография">
+    <meta name="description" content="Главная страница (Дональд Кнут) — американского учёного в области информатики, автора TeX и «Искусства программирования».">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    >
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="icon" type="img/ico" sizes="32x32" href="img/favicon.ico">
+    <link rel="icon" type="img/ico" sizes="16x16" href="img/favicon.ico">
+    <link rel="shortcut icon" href="icons/favicon.ico">
 </head>
 <body>
     <header>
@@ -37,9 +41,9 @@
             <a download href="img/Дональд Кнут.webp">
                 <img height="400px" width="300px" src="img/Дональд Кнут.webp" alt="Дональд Кнут">
             </a>
-            <p lang="en">Дональд Эрвин Кнут (англ. Donald Ervin Knuth, МФА; род. (<del> февраль 1939 года</del>) <ins>январь 1938 года</ins>, Милуоки, штат Висконсин) — американский учёный в области информатики, доктор философии (1963), эмерит-профессор Стэнфордского университета, член Американского философского общества (2012)[6], преподаватель и идеолог программирования, автор 19 монографий (в том числе ряда классических книг по программированию) и более 160 статей, разработчик нескольких известных программных технологий.
+            <p lang="en">Donald Ervin Knuth (English: Donald Ervin Knuth, IPA; born (<del>February 1939</del>) <ins>January 1938</ins>, Milwaukee, Wisconsin) is an American computer scientist, Doctor of Philosophy (1963), emeritus professor at Stanford University, member of the American Philosophical Society (2012)[6], educator and ideologist of programming, author of 19 monographs (including a number of classic books on programming) and more than 160 articles, and developer of several well-known software technologies.
 
-                Является автором всемирно известной серии книг, посвящённой основным алгоритмам и методам вычислительной математики, а также создателем настольных издательских систем TeX и METAFONT, предназначенных для набора и вёрстки книг научно-технической тематики (в первую очередь — физико-математических).</p>
+                He is the author of the world-famous book series devoted to fundamental algorithms and methods of computational mathematics, as well as the creator of the desktop publishing systems TeX and METAFONT, designed for typesetting and layout of books on scientific and technical topics (primarily physics and mathematics).</p>
 
             
             <blockquote>
@@ -62,22 +66,22 @@
         <section class="feedback" id="feedback">
             <h2>Обратная связь</h2>
             <form action="">
-                <label for="login">Введите логин</label><br>
-                <input type="text" placeholder="Логин" name="login" id="login" ><br>
-                <label for="pass">Введите пароль</label><br>
-                <input type="password" placeholder="Пароль" name="pass" id="pass"><br>
-                <input type="checkbox" id="agreement" name="agreement" required>
-                <label for="agreement"> Согласие на обработку персональных данных</label><br>
-                <select name="city" id="city" required>
-                    <option value="" selected disabled>Выберите город</option>
-                    <option value="chel">Челябинск</option>
-                    <option value="mos">Москва</option>
-                    <option value="tum">Тюмень</option>
-                    <option value="kaz">Казань</option>
+                <select name="tema" id="tema" required>
+                    <option value="" selected disabled>Выберите тему</option>
+                    <option value="chel">Биография</option>
+                    <option value="mos">Признание</option>
+                    <option value="tum">Интересные факты</option>
+                    <option value="kaz">Список терминов</option>
 
                 </select><br>
+                <label for="login">Введите имя </label><br>
+                <input type="text" placeholder="Логин" name="login" id="login" required><br>
+                <label for="E-mail">Введите E-mail</label><br>
+                <input type="email" placeholder="Почта" name="E-mail" id="E-mail" required><br>
+                <input type="checkbox" id="agreement" name="agreement" required>
+                <label for="agreement"> Согласие на обработку персональных данных</label><br>
                 <textarea name="message" id="message" cols="30" rows="5"></textarea>
-                <input type="submit" value="Войти">
+                <input type="submit" value="Отправить">
 
             </form>
 
